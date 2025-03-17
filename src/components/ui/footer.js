@@ -14,21 +14,23 @@ function Footer() {
         }}
       />
       <footer className="flex sm:flex-row flex-col justify-between font-sans text-lg tracking-tight text-gray-600 my-4 px-6 gap-2">
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-2">
           <div>
             <p>
-              By:{" "}
-              <span className="font-bold text-gray-400">Mohammad Murad</span>
+              By :{" "}
+              <span className="font-bold text-gray-500">
+                Mohammad Talal Murad
+              </span>
             </p>
           </div>
           <div>
             <p>
-              Tel: <span className="text-gray-500">+962 777 277 673</span>
+              Tel : <span className="text-gray-500">+962 777 277 673</span>
             </p>
           </div>
           <div>
             <p>
-              Email:{" "}
+              Email :{" "}
               <span className="text-gray-500">
                 mohammad.talal.murad@gmail.com
               </span>

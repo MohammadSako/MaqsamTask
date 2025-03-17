@@ -12,7 +12,6 @@ const Map = ({ latitude, longitude, onLocationSelect }) => {
   useEffect(() => {
     if (!latitude || !longitude || !mapContainer.current) return;
 
-    // Initialize the map
     mapInstance.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/streets-v11",
@@ -30,10 +29,7 @@ const Map = ({ latitude, longitude, onLocationSelect }) => {
 
   return (
     <div>
-      <div
-        ref={mapContainer}
-        className="w-full h-[400px] rounded-lg shadow-md"
-      />
+      <div ref={mapContainer} className="w-full h-[400px] shadow-lg my-4" />
     </div>
   );
 };
