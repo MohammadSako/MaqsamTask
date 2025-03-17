@@ -6,11 +6,6 @@ import dynamic from "next/dynamic";
 import Footer from "../components/ui/footer";
 
 const Map = dynamic(() => import("./components/Map"), { ssr: false });
-// This tells Next.js to load the Map component dynamically instead of bundling it in the
-// initial server-rendered page. This ensures that the Map component is only rendered on
-// the client side. Some components, like react-leaflet (maps), rely on browser APIs (e.g., window, navigator),
-// which are not available on the server.
-// If SSR is enabled for such components, Next.js will throw errors like window is not defined.
 
 export default function Home() {
   const [location, setLocation] = useState({ lat: 10.9544, lng: 10.9106 });
