@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "logos.skyscnr.com",
+        hostname: "maqsam-task-gamma.vercel.app",
         pathname: "**",
       },
     ],
@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
       allowedOrigins: [
         "localhost",
         "localhost:3000",
-        "spotterflight.vercel.app/",
+        "maqsam-task-gamma.vercel.app/",
       ],
     },
   },

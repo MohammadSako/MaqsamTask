@@ -60,7 +60,7 @@ export default function Home() {
           alt="wallpaper"
           width={800}
           height={600}
-          className="flex justify-center w-full h-auto mt-1"
+          className="flex justify-center w-full h-auto mt-16"
         />
       </main>
       <footer className="py-4 mt-auto">
@@ -70,9 +70,9 @@ export default function Home() {
   );
 }
 
-
-// instructions:
+// Instructions:
 // 1. Open the console: write => npm install.
-// 2. Run the command: write => npx next dev
-// 3. Open the browser: write => http://localhost:3000
-// 4. Or open this Link to open the app:
+// 2. Run the command: write => npm run dev
+// 3. Then open on your browser: http://localhost:3000
+
+// 4. Or click this link to open the app hosted on Vercel: https://maqsam-task-gamma.vercel.app
