@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
@@ -16,7 +16,7 @@ const Map = ({ latitude, longitude, onLocationSelect }) => {
     mapInstance.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/streets-v11",
-      center: [longitude, latitude], // [lng, lat]
+      center: [longitude, latitude],
       zoom: 1,
     });
 

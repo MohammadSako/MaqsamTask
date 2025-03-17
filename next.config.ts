@@ -15,8 +15,6 @@ const nextConfig: NextConfig = {
       allowedOrigins: [
         "localhost",
         "localhost:3000",
-        "sky-scrapper.p.rapidapi.com",
-        "logos.skyscnr.com",
         "spotterflight.vercel.app/",
       ],
     },
